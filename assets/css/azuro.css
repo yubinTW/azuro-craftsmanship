@@ -29,7 +29,10 @@
 }
 
 /* no display GIF */
-@media only screen and (min-width: 640px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px),
+       only screen and (min-width: 640px) and (max-width: 767px),
+       only screen and (min-width: 480px) and (max-width: 640px),
+       only screen and (min-width: 1px) and (max-width: 480px) {
     .index-slide-3_video {
         display: block;
     }
