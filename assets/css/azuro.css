@@ -40,3 +40,8 @@
         display: none;
     }
 }
+/* set video overflow */
+.proccess-page .hero-slide.content-left .section:last-of-type {
+    overflow-x: hidden;
+    overflow: hidden;
+}
