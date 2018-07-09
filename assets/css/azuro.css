@@ -64,3 +64,22 @@
          display: none;
      }
 }
+
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+    .proccess-page .craftsmanship_text-content h2 {
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .proccess-page .content-left .craftsmanship_text-content {
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+    .proccess-page .craftsmanship_text-content h2 {
+        font-size: 1.6em;
+        width: 100%;
+    }
+}
