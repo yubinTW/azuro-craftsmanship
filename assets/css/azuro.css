@@ -5,5 +5,35 @@
 .header__logo {
     display: block;
     margin: 0 auto;
+    margin-top: -10px;
     width: 100px;
+}
+
+.proccess-page .craftsmanship_text-content {
+    width: 70%;
+    min-width: 500px;
+}
+
+.proccess-page .craftsmanship_text-content p {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.proccess-page .craftsmanship_text-content h2 {
+    font-size: 2em;
+}
+
+.button.white {
+    margin-top: 1.5em;
+}
+
+/* no display GIF */
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .index-slide-3_video {
+        display: block;
+    }
+    .proccess-page .mobile-img-fallback {
+        display: none;
+    }
 }
