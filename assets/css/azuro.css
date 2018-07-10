@@ -43,14 +43,16 @@
 
 @media only screen and (min-width: 1024px){
     .proccess-page .craftsmanship_text-content h2 {
-        font-size: 2.2em;
+        font-size: 2.5em;
         width: 100%;
     }
     .proccess-page .craftsmanship_text-content p {
         display: block;
         margin: 0 auto;
         width: 80%;
+        padding: 0 43px;
     }
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px),
