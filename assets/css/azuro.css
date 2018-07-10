@@ -57,12 +57,12 @@
        only screen and (min-width: 640px) and (max-width: 767px),
        only screen and (min-width: 480px) and (max-width: 640px),
        only screen and (min-width: 1px) and (max-width: 480px) {
-     .index-slide-3_video {
+     /* .index-slide-3_video {
          display: block;
      }
      .proccess-page .mobile-img-fallback {
          display: none;
-     }
+     } */
 }
 
 @media only screen and (min-width: 1px) and (max-width: 480px) {
